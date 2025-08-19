@@ -1,4 +1,4 @@
-This is an app to know more about current crypto stats, check your NFTs on Crypto POS and Stargaze (more to come), view current COsmos chains status and a validator of the minute, as well as an AI chat powered by Akash Network.  
+This is an app to know more about current crypto stats, check your NFTs on Crypto POS and Stargaze (more to come), view current Cosmos chains status and a validator of the minute, as well as an AI chat powered by Akash Network.  
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
