@@ -47,13 +47,13 @@ export default function Chat() {
 
   return (
     <div className="chat-page">
-      <h1 className="chat-title">Ask Akash AI</h1>
+      <h1 className="chat-title">Ask AI about crypto!</h1>
 
       <div className="chat-container">
         {/* ----- Text input ----- */}
         <input
           type="text"
-          placeholder="Ask anything about crypto…"
+          placeholder="Ask me anything about crypto…"
           className="chat-input"
           value={input}
           onChange={(e) => setInput(e.target.value)}
