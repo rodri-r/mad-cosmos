@@ -1,7 +1,14 @@
-This is an app to know more about current crypto stats, check your NFTs on Crypto POS and Stargaze (more to come), view current Cosmos chains status and a validator of the minute, as well as an AI chat powered by Akash Network.  
+# MAD COSMOS 
 
+A Cosmos beginner friendly app to know more about:
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- Current crypto stats
+- Check your NFTs on Crypto POS and Stargaze (more to come)
+- View current Cosmos chains status
+- Validator of the minute
+- An AI chat powered by Akash Network  
+
+---
 
 ## Getting Started
 
@@ -35,3 +42,12 @@ create an .env.local file with
 NEXT_PUBLIC_AKASH_API_KEY=YOUR-AKASH-CHAT-API-KEY
 
 Get your key at https://chatapi.akash.network/
+
+---
+
+### Mad Scientists
+
+Discord
+
+- @rodri_r
+- @mrtomas_
