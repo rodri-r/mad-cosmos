@@ -27,14 +27,14 @@ export default function Home() {
 
         // Crypto prices
         const priceRes = await fetch(
-          "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,cosmos,akash-network,cronos,osmosis&vs_currencies=usd",
+          "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,cosmos,akash-network,crypto-com-chain,osmosis&vs_currencies=usd",
         );
         const priceData = await priceRes.json();
         setBtcPrice(`$${priceData.bitcoin.usd.toLocaleString()}`);
         setEthPrice(`$${priceData.ethereum.usd.toLocaleString()}`);
         setAtomPrice(`$${priceData.cosmos.usd.toLocaleString()}`);
         setAktPrice(`$${priceData["akash-network"].usd.toLocaleString()}`);
-        setCroPrice(`$${priceData.cronos.usd.toLocaleString()}`);
+        setCroPrice(`$${priceData["crypto-com-chain"].usd.toLocaleString()}`);
         setOsmoPrice(`$${priceData.osmosis.usd.toLocaleString()}`);
       } catch (e) {
         console.error(e);
