@@ -48,12 +48,21 @@ export default function Home() {
 
   return (
     <div className="space-y-12">
-      <a href="https://www.madscientists.io" target="_blank" rel="noopener noreferrer">
-        <div className="sponsor-card">
-          <img src="/madscientists-logo.png" alt="Mad Scientists" />
-          <h3>Built by Mad Scientists</h3>
+      <section className="hero-section">
+        <div className="container text-center">
+          <h1 className="text-4xl font-bold text-white">
+            Welcome to Mad Cosmos
+          </h1>
+          <p className="text-lg text-gray-300">
+            Built by Mad Scientists
+          </p>
+          <a href="https://www.madscientists.io" target="_blank" rel="noopener noreferrer">
+            <button className="btn">
+              Are you Mad?
+            </button>
+          </a>
         </div>
-      </a>
+      </section>
       <hr className="divider" />
       <div className="stats-grid">
         <div className="card">

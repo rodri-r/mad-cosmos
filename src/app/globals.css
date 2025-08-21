@@ -57,29 +57,6 @@ body {
   color: #e0e0e0;
 }
 
-.sponsor-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.sponsor-card img {
-  max-width: 250px;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-}
-
-.sponsor-card h3 {
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-}
-
 .divider {
   border: none;
   height: 1px;
@@ -140,6 +117,36 @@ tbody tr:nth-child(even) {
 .status-offline {
   background: rgba(239, 68, 68, 0.2);
   color: #ef4444;
+}
+
+.hero-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/madscientists-logo.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-section h1 {
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
 }
 
 @media (max-width: 640px) {
