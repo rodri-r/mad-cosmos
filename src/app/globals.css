@@ -3,19 +3,19 @@
 *::after {
   box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
 
 body {
   background: url(/space1.gif) center/cover fixed;
   background-color: #000;
-  color: #e0e0e0;          
+  color: #e0e0e0;
 }
 
 .container {
@@ -34,6 +34,7 @@ body {
   height: 64px;
   padding: 0 1rem;
 }
+
 .navbar a {
   color: #fff;
   text-decoration: none;
@@ -41,6 +42,7 @@ body {
   font-size: 0.95rem;
   transition: color 0.2s;
 }
+
 .navbar a:hover {
   color: #81e6d9;
 }
@@ -55,19 +57,39 @@ body {
   color: #e0e0e0;
 }
 
-.validator-card {
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 0.75rem;
-  padding: 1.5rem;
-  text-align: center;
-  color: #262861;
+.sponsor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.sponsor-card img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+
+.sponsor-card h3 {
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.divider {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 2rem 0;
 }
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
 }
 
@@ -77,22 +99,27 @@ body {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(6px);
 }
+
 table {
   width: 100%;
   border-collapse: collapse;
   min-width: 600px;
 }
+
 thead {
   background: rgba(0, 0, 0, 0.8);
 }
+
 th,
 td {
   padding: 0.75rem 1rem;
   text-align: left;
 }
+
 th {
   color: #fff;
 }
+
 tbody tr:nth-child(even) {
   background: rgba(255, 255, 255, 0.04);
 }
@@ -104,10 +131,24 @@ tbody tr:nth-child(even) {
   font-size: 0.75rem;
   font-weight: 600;
 }
-.status-live   { background: rgba(34, 197, 94, 0.2); color: #22c55e; }
-.status-offline{ background: rgba(239, 68, 68, 0.2); color: #ef4444; }
+
+.status-live {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.status-offline {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
 
 @media (max-width: 640px) {
-  .navbar a { margin-left: 1rem; font-size: 0.9rem; }
-  .container { padding: 1rem 0.5rem; }
+  .navbar a {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 1rem 0.5rem;
+  }
 }
