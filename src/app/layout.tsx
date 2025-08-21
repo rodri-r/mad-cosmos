@@ -10,11 +10,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         {/* -------------------- Navbar -------------------- */}
         <nav className="navbar">
           <div className="container flex justify-between items-center">
-            {/* Logo / Home */}
-            <Link href="/" className="text-2xl font-bold text-white">
-              Home
-            </Link>
-
             {/* Nav links */}
             <div className="flex">
               <Link href="/" className="text-gray-300 hover:text-white transition">
