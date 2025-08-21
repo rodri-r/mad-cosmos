@@ -45,6 +45,16 @@ Get your key at https://chatapi.akash.network/
 
 ---
 
+Don't forget to run 
+```
+npm install
+# or
+yarn install
+```
+before gettingg started
+
+---
+
 ### Mad Scientists
 
 Discord
